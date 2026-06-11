@@ -27,16 +27,18 @@ export const MyAwesomeApp = () => {
 
     return (
         <>
-            <h1 data-testid="first-name-title">{firstName}</h1>
-            <h3>{lastName}</h3>
+            <div data-testid="div-app">
+                <h1 data-testid="first-name-title">{firstName}</h1>
+                <h3>{lastName}</h3>
+                <p>{2 + 2}</p>
+                <p>{favoriteGames.join(', ')}</p>
+                <h1>{isActive ? 'Active' : 'Inactive'}</h1>
 
-            <p>{favoriteGames.join(', ')}</p>
-            <h1>{isActive ? 'Active' : 'Inactive'}</h1>
-            <p>{2 + 2}</p>
 
-            <p
-                style={myStyle}
-            > {JSON.stringify(address)}</p>
+                <p
+                    style={myStyle}
+                > {JSON.stringify(address)}</p>
+            </div>
         </>
     )
 }

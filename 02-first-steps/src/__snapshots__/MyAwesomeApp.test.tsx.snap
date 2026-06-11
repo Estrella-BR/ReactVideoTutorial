@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > shoul match snapshot 1`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+    Estrella
+  </h1>
+  <h3>
+    Blanco
+  </h3>
+  <p>
+    4
+  </p>
+  <p>
+    The Legend of Zelda, Super Mario Bros, Minecraft
+  </p>
+  <h1>
+    Active
+  </h1>
+  <p
+    style="background-color: rgb(250, 250, 250); border-radius: 8px; padding: 16px; margin-top: 16px;"
+  >
+     
+    {"street":"123 Main St","city":"Anytown","country":"USA"}
+  </p>
+</div>
+`;
+
+exports[`MyAwesomeApp > shoul match snapshot 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+    Estrella
+  </h1>
+  <h3>
+    Blanco
+  </h3>
+  <p>
+    4
+  </p>
+  <p>
+    The Legend of Zelda, Super Mario Bros, Minecraft
+  </p>
+  <h1>
+    Active
+  </h1>
+  <p
+    style="background-color: rgb(250, 250, 250); border-radius: 8px; padding: 16px; margin-top: 16px;"
+  >
+     
+    {"street":"123 Main St","city":"Anytown","country":"USA"}
+  </p>
+</div>
+`;

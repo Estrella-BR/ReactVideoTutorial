@@ -29,4 +29,16 @@ describe('MyAwesomeApp', () => {
 
 
     })
+
+    test('shoul match snapshot', () => {
+        const { container } = render(<MyAwesomeApp />)
+
+        expect(container).toMatchSnapshot();//Solo usar snapshot si el componente no cambia de contenido
+    })
+
+    test('shoul match snapshot', () => {
+        render(<MyAwesomeApp />)
+
+        expect(screen.getByTestId('div-app')).toMatchSnapshot();
+    })
 })
